@@ -14,6 +14,6 @@ def sendSMS(apikey, numbers, sender, message):
     fr = f.read()
     return(fr)
  
-resp =  sendSMS('=', '918447389366',
-    '', 'Hi there, thank you for sending your first test message from Textlocal. See how you can send effective SMS campaigns here: https://tx.gl/r/2nGVj/')
+resp =  sendSMS('NGI2YzU5NDYzOTc1Njk3NjMzNDMzODQyNTc0ZDc1NmU=', '+918447389366',
+    'Anubha', 'Hi there, thank you for sending your first test message from Textlocal. See how you can send effective SMS campaigns here: https://tx.gl/r/2nGVj/')
 print (resp)
